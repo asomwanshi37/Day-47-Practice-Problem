@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="New_Home.css">
+    <title>Employee Payroll App</title>
+    <script defer src=""></script>
+</head>
+<body>
+    <!--UC1-->
+    <header class="header-content header">
+        <div class="logo-content">
+            <img src="../images/advert2.png" alt="">
+            <div>
+                <span class="emp-text">EMPLOYEE</span><br>
+                <span class="emp-text emp-payroll"> PAYROLL</span>
+
+            </div>
+
+        </div>
+    </header>
+    <div class="main-content">
+        
+            <!--UC2-->
+            <div class="header-content"> 
+              <div class="emp-detail-text">Employee Details<div class="emp-count">10</div>
+              </div>
+                <a href="New_Payroll_Form.html" class="add-button">
+                    <img src="" alt="">Add User</a>
+            </div>
+
+
+    </div>
+    <table id="display" class="table">
+        <!--UC3-->
+        <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Start Date</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td><img class="Profile" alt=""src></td>
+            <td>Akshay Somwanshi</td>
+            <td>Male</td>
+            <td><div class="dept-label">HR</div>
+              <div class="dept-label">Finance</div>
+            </td>
+
+            
+
+            <td>3000000</td>
+
+            <td>1 Nov 2020</td>
+
+            <td>
+                <img id="1" onclick="remove(this)" alt="delete"src="">
+                <img id="1" onclick="update(this)" alt="edit"src="">
+            </td>
+
+            
+        </tr>
+    </table>
+    <script defer src="../new_Home.js"></script>
+    <script defer src="../HTML/Site_Properties.js"></script>
+    <script defer src="../HTML/uitility.js"></script>
+    
+</body>
+</html>
